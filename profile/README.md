@@ -28,7 +28,7 @@ Ternary AI infrastructure. Every neural network weight reduced to three values: 
 
 | Repository | Visibility | Description |
 |---|---|---|
-| [tern-core](https://github.com/synapticode/tern-core) | Private | Core ternary execution engine. Compare-and-add arithmetic, sparsity-aware memory, zero-skip execution. |
+| [tern-core](https://github.com/synapticode/tern-core) | Public | Core ternary execution engine. Compare-and-add arithmetic, sparsity-aware memory, zero-skip execution. |
 | [tern-compiler](https://github.com/synapticode/tern-compiler) | Private | 5-stage compiler pipeline. FP16/INT8 to ternary conversion, NPU microcode generation. |
 | [tern-runtime](https://github.com/synapticode/tern-runtime) | Private | Deterministic runtime. Multi-NPU orchestration, .tern-model loading, health monitoring. |
 | [tern-governance](https://github.com/synapticode/tern-governance) | Private | Explainability engine, audit trail, regulatory compliance framework. |
@@ -116,9 +116,8 @@ strategy are available under mutual NDA.
 All filings: **Robert Lakelin**, sole inventor.
 
 ## Contact
-
-partnerships@synapticode.ai
-Subject to mutual NDA.
+**Contact**: partnerships@synapticode.ai  
+*All commercial discussions subject to mutual NDA.*
 
 **Gamma Seeds Pte Ltd** (Singapore, incorporation in progress)  
 Synapticode product family · CNS Synaptic™ ternary computing platform
