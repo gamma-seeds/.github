@@ -28,7 +28,7 @@ Ternary AI infrastructure. Every neural network weight reduced to three values: 
 
 | Repository | Visibility | Description |
 |---|---|---|
-| [tern-core](https://github.com/synapticode/tern-core) | Private | Core ternary execution engine. Compare-and-add arithmetic, sparsity-aware memory, zero-skip execution. |
+| [tern-core](https://github.com/synapticode/tern-core) | Public | Core ternary execution engine. Compare-and-add arithmetic, sparsity-aware memory, zero-skip execution. |
 | [tern-compiler](https://github.com/synapticode/tern-compiler) | Private | 5-stage compiler pipeline. FP16/INT8 to ternary conversion, NPU microcode generation. |
 | [tern-runtime](https://github.com/synapticode/tern-runtime) | Private | Deterministic runtime. Multi-NPU orchestration, .tern-model loading, health monitoring. |
 | [tern-governance](https://github.com/synapticode/tern-governance) | Private | Explainability engine, audit trail, regulatory compliance framework. |
@@ -52,23 +52,72 @@ Ternary computing mirrors biological neural architecture. The CNS Synaptic™ st
 | Reflexes | Edge-local inference | tern-core + cns-edge |
 | Immune system | Adversarial robustness | tern-governance |
 | Sensory organs | CUBIE interface | cubie-ui |
-
 ## Intellectual Property
 
-35 patents. 350+ claims. Four technology layers covering the entire ternary AI deployment and governance infrastructure.
+128 provisional patents filed with IP Australia (P001–P128, with P069 
+and P070 held pending bench testing). Filed portfolio covers the full 
+ternary computing stack from silicon primitives to governance, with 
+priority dates anchored across February–April 2026.
 
-- Foundation (9 patents): Core execution, arithmetic, memory, compression, sparsity
-- Infrastructure (7 patents): Dynamic precision, multi-NPU, deterministic runtime
-- Application (12 patents): Model conversion, multimodal, generative, cross-platform
-- Intelligence (7+ patents): TNPU architecture, adversarial robustness, governance, compiler
+### Portfolio Structure
+
+**Foundation Layer** — Core ternary execution, arithmetic primitives, 
+memory architecture, compression, sparsity-aware computation. Includes 
+the photonic ternary weight encoding and edge-cloud hybrid inference 
+provisionals scheduled for PCT escalation.
+
+**Infrastructure Layer** — Dynamic precision orchestration, multi-NPU 
+coordination, deterministic runtime, ternary-native compiler stages, 
+KV-cache strategies, and ANE scheduling.
+
+**Application Layer** — Model conversion (FP16/INT8 → ternary), 
+multimodal inference, generative architectures, cross-platform 
+deployment, .tern-pkg distribution format, and the .see3 document 
+format.
+
+**Intelligence Layer** — TNPU architecture (compute-in-sensor with 
+co-located memory), adversarial robustness, Seal³ provenance 
+attestation with ML-DSA-65 post-quantum signing, Agent³ edge operating 
+system, Guardian³ runtime, and Zero³ cross-layer safe state identity.
+
+**Avionics & Regulated Domains** — DO-178C MCDC criterion mapping, 
+dual-ternary active-active Agreement Monitor architecture, and the 
+Ternary Avionics Architecture (TAA) targeting EASA AMC 20-115 and 
+AMC 20-152 engagement.
+
+### Coverage
+
+The portfolio establishes priority across:
+
+- Ternary silicon primitives (compute, memory, interconnect)
+- Neural network compression and inference acceleration
+- Agent operating system architecture
+- Post-quantum cryptographic attestation
+- Energy-recovery switching and self-funded memory cells
+- Photonic and neuromorphic ternary implementations
+- Compliance frameworks for regulated industries (avionics, financial, 
+  healthcare-adjacent)
+
+### Strategy
+
+Gamma Seeds operates an ARM-style licensing model. Synapticode does 
+not fabricate ternary silicon — neutrality is the moat. The toolchain 
+(tern-core, tern-compiler, tern-runtime) and attestation infrastructure 
+(Seal³) are designed to remain authoritative as multiple silicon 
+implementations emerge under licence.
+
+PCT escalation is in active preparation for priority claims approaching 
+their 12-month conversion windows. Specific filing numbers and PCT 
+strategy are available under mutual NDA.
+
+### Inventor
+
+All filings: **Robert Lakelin**, sole inventor.
 
 ## Contact
 
 partnerships@synapticode.ai
 Subject to mutual NDA.
 
-Synapticode Co., Ltd.
-
----
-
-CNS Synaptic™ by Synapticode
+**Gamma Seeds Pte Ltd** (Singapore, incorporation in progress)  
+Synapticode product family · CNS Synaptic™ ternary computing platform
